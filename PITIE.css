@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: rgb(223, 223, 223);
+    font-size: 20px;
+    min-height: 100vh; 
+  }
+header {
+  height: 100px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.All {
+    min-height: calc(100vh - 100px);
+    box-sizing: border-box; 
+  }
+
+nav {
+  width: 100%;
+  background-color: blueviolet;
+  box-shadow: 0px 0px 5px black;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: white;
+  text-shadow: 0px 0px 20px black;
+}
+
+.Barre {
+  display: table;
+  margin: 0 auto;
+}
+
+.TextDebut {
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  font-style: normal;
+}
+
+p {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.type {
+    text-align: center;
+}
+
+.type a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+
+.type a:hover {
+  color: blueviolet;
+  text-shadow: 0px 0px 25px black;
+}
+
+.type dd {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.soloo {
+  width: 250px;
+  height: auto;
+  box-shadow: 0px 0px 5px black;
+}
+
+.Cr {
+  width: 200px;
+  height: auto;
+  box-shadow: 0px 0px 5px black;
+}
+
+.imgEm {
+  width: 200px;
+  height: auto;
+  box-shadow: 0px 0px 5px black;
+}
+
+footer {
+  background-color: blueviolet;
+  box-shadow: 0px 0px 5px black;
+  margin: 0;
+  padding: 20px; /* Ajouter un espace de remplissage au pied de page pour le séparer du contenu */
+  color: white; /* Changer la couleur du texte pour une meilleure lisibilité */
+}
+footer a {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+}
+
+footer a:hover {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+textarea {
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 5px black;
+}
